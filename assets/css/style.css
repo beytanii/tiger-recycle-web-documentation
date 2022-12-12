@@ -1,0 +1,160 @@
+html, body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    height: 100%;
+}
+.wrapper{
+    height: 100%;
+    padding-bottom: 2em;
+    display: inline;
+}
+img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+/* ----------- header ----------- */
+header {
+    background: #626D58;
+    width: 100%;
+    display: flex;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    background-color: #626D58;
+    height: 10vh;
+}
+.navigation-logo{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navigationbar {
+    display:flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    width: 80vw;
+    align-items: center;
+}   
+.navigationbar li {
+    width: 15vw;
+}
+.navigationbar li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 20px;
+}
+.navigationbar li a:hover {
+    color: #BDC667;
+}
+.navigationbar .icon {
+    display: none;
+}
+.page{
+    font-size: clamp(1rem, 1vh, 2rem);
+}
+.logo{
+    flex: 1;
+    height: 10vh;
+    width: 10vh;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .wrapper {
+    padding-top: 60px;
+}
+
+/* flex containers */
+
+.container{
+    display: flex;
+    width: 80vw;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+    flex-direction: column;
+}
+
+.half-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.half{
+    width: 50%;
+    padding: 1em;
+}
+
+
+/* tables */
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 1em;
+}
+table{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+th, td{
+    width: 25%;
+}
+
+/* list */
+li{
+    padding: .5em;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background: #22311d;
+    height: 6em;
+    justify-content: center;
+    flex-direction: column;
+}footer ul{
+    display: flex;
+}
+.footerNavigation{
+    flex: 1;
+    justify-content:center;
+}
+.footerNavigation li{
+    list-style: none;
+}
+.footerNavigation li a{
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #76a867;
+    padding-left: 1em;
+    padding-right: 1em;
+    color:#76a867;
+    text-decoration: none;
+}
+.copyright{
+    display: flex;
+    padding-top: 1em;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    color:#76a867;
+}

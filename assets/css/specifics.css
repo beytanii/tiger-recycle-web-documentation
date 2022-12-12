@@ -1,0 +1,140 @@
+/* big ideas */
+.big-ideas{
+    display: flex;
+}
+.big-half{
+    display: flex;
+    flex-direction: row;
+}
+.big-item{
+    flex: 1;
+    padding: 1em;
+}
+.big-item img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+/* user buttons */
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.user-button {
+    padding: 1em;
+}
+
+/* journey map */
+.journey{
+    align-self: center;
+}
+/* .zoomE{
+    width: 80%;
+    height: 100%;
+} */
+
+/* journal low fidelity */
+.journal{
+    text-align: center;
+}
+.journal img{
+    height: 60vh;
+    width: auto;
+}
+
+/* sketch scenarios */
+.sketch{
+    display: flex;
+    flex-direction: row;
+}
+.sketch-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+}
+.sketch img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* moodboard */
+.guide{
+    display: flex;
+    flex-direction: row;
+}
+.guide-item{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+}
+.guide img{
+    width: 100%;
+    height: 100%;
+}
+
+/* low fidelity */
+.low-fi{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.mobile, .machine{
+    padding-bottom: 2em;
+    text-align: center;
+}
+.mobile img, .machine img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* average */
+.question{
+    width: 30%;
+}
+.average{
+    width: 15%;
+}
+
+/* wireflow */
+.wireflow{
+    padding: 2em;
+    justify-content: center;
+}
+
+.exploratory{
+    width: 100%;
+    height: auto;
+}
+
+/* figma */
+.figma{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    padding-bottom: 15vh;
+}
+.mobile-hifi{
+
+    padding: 1em;
+}
+.machine-hifi{
+    height: 90vh;
+    padding: 1em;
+}
+
+/* hi fi */
+.participant{
+    width: 15%;
+}
+.response{
+    width: 20%;
+}
